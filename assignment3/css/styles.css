@@ -1,0 +1,106 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a3c4f3;
+    
+}
+
+
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5c4d7d;
+    background-color: #f15bb5;
+}
+h3 {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: #b7094c;
+ background-color: #ff97b7;
+}
+p, li {
+    color: #5a189a;
+    background-color: #ffacc5;
+}
+label {
+    color: #b7094c;
+    font-weight: bold;
+    background-color: #ffcfd2;
+}
+.navlink {
+    font-weight: bold;
+}
+
+.navlink:link {
+    color: hsl(4, 82%, 59%);
+    background-color: #b5179e;
+}
+.navlink:visited {
+    color: #2ec4b6;
+    background-color: bisque;
+}
+.navlink:hover {
+    color: #f15bb5;
+    background-color: #fee440;
+}
+.navlink:active {
+    color: #b7094c;
+    background-color: #0091ad;
+}
+.navlink:focus {
+    color: #5c4d7d;
+    background-color: #ff99c8;
+}
+.smedia {
+    max-width: 40px;
+    height: auto;
+    padding-left: 30px;
+}
+
+.pic {
+    max-width: 100%;
+    height: 150px;
+    border: solid 5px #f15bb5;
+    border-radius: 20px;
+}
+    
+.footer {
+    font-size: 1em;
+    color: #a01a58;
+    
+}    
+
+.wrapper {
+    background-image: url("../images/aurora.jpg");
+    background-attachment: fixed;
+    cursor: url("../images/birb.png"), auto;
+    
+}
+.css {
+    background-color: #a3c4f3;
+}
+.color {
+    background-color: #94d2bd;
+}
+.nice {
+    background-color: #0096c7;
+}
+.pink {
+    margin: 10px 15px 5px 15px;
+    width: 150px;
+    height: 150px;
+}
+.ham {
+    font-size: 1em;
+    background-color: #2ec4b6;
+}
+.shadow {
+    text-shadow: 2px 2px 5px #b5179e;
+}
+
+#wrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ff99c8;
+    border: solid 3px #5c4d7d;
+    
+}

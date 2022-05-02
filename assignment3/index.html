@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Assignment03 | HTML | Comp 1850</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+       <style>
+           h1, h2 {
+               border: solid 3px darkblue;
+           }
+       </style>
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Page 1 'HTML elements'</h1>
+                <img class="pic" src="images/cherryblossum.jpg" alt="cherry blossums surrounding a Japanese building">
+            </header>
+
+            <nav>
+                <a class="navlink" href="page2.html">CSS Properties Page</a>
+            </nav>
+           
+                <main>
+                    
+                        <section>
+                            <h2>The HTML &lt;picture&gt; Element</h2>
+                            <p>The html &lt;picture&gt; element gives developers more flexibility in displaying
+                                images. It contains one or more &lt;source&gt; elements and the &lt;srcset&gt; attribute
+                                is used to refer to different images allowing the browser to use the image that best 
+                                fits the view or device. Some browsers might not support all image types, by using 
+                                different image formats the browser will select the first one it recogizes and ignore
+                                the rest. Each &lt;source&gt; has a &lt;media&gt; attribute that defines
+                                 when each image is most suitable.
+                                 The &lt;img&gt; element is used for browsers that don't support the &lt;picture&gt;
+                                 element or if the &lt;source&gt; tags don't match.</p>
+                                 <p>Source <a class="navlink" href="https://www.w3schools.com/html/html_images_picture.asp">w3schools.com</a></p>
+                                 <h3>Example</h3>
+                                
+                                 <picture>
+                                     <source media="(min-width: 650px)" srcset="images/bluesucculent.jpg">
+                                     <source media="(min-width: 465px)" srcset="images/raresucculent.jpg">
+                                     <img src="images/pinksucculent.jpg" alt="pink succulent">
+                                 </picture>
+                                </section>
+
+                        <section>
+                            <h2>The &lt;SVG&gt; Element</h2>
+                            <p>SVG stands for Scalable Vector Graphics, &lt;SVG&gt; is a container
+                                 element for these types of graphics. It has multiple methods for drawing
+                                shapes, logos, text, etc. &lt;SVG&gt; graphics can be modified with any text 
+                                editor and don't lose any quality if zoomed or resized. You can also
+                                embed &lt;SVG&gt; images directly into your html code.</p>
+                                <h3>SVG Code explanation:</h3>
+
+                            <ul>
+                                
+
+                        <li>An SVG image begins with an &lt;SVG&gt; element
+                        <li>The width and height attributes of the &lt;SVG&gt; element define the width and height of the SVG image</li>
+                        <li>The &lt;circle&gt; element is used to draw a circle</li>
+                        <li>The cx and cy attributes define the x and y coordinates of the center of the circle. If cx and cy are not set, the circle's center is set to (0, 0)</li>
+                        <li>The r attribute defines the radius of the circle</li>
+                        <li>The stroke and stroke-width attributes control how the outline of a shape appears. We set the outline of the circle to a 4px purple "border"</li>
+                        <li>The fill attribute refers to the color inside the circle. We set the fill color to<span style="color:rgb(248, 118, 139);"> pink</span>.</li>
+                        <li>The closing &lt;SVG&gt; tag closes the SVG image</li>
+                            </ul>        
+                        <p>Source <a class="navlink" href="https://www.w3schools.com/html/html5_svg.asp">w3cschools.com</a></p>
+                        
+                        <h3>Example</h3>
+                        <svg width="150" height="150">
+                            <circle cx="60" cy="60" r="50" stroke="purple" stroke-width="4" fill="pink" />
+                          </svg>
+                        </section>
+
+                        <section>
+                            <h2>The &lt;select&gt; Element</h2>
+                            <p>The &lt;select&gt; element represents a control that provides a menu of drop-down
+                                options. It is &lt;form&gt; element and is used with a &lt;label&gt; element
+                                 which contains text to introduce the select element. This is used with one
+                                attribute, 'for', whose value should match the id of the associated &lt;select&gt;
+                                element. 
+                                The &lt;select&gt; element's opening tag will contain 2 attributes.
+                                First, the 'name' attribute will name the dropdown element, and second, the 'id' attribute
+                                which pairs the &lt;select&gt; element with the &lt;label&gt; element.
+                                Next we put an &lt;option&gt; tag for each list item, and use a 'value' attribute
+                                that specifies the value sent when the form is submitted.</p>
+
+                                 <label for="sandwiches">Choose a favourite sandwich:</label>
+                            <select id="sandwiches" name="sandwiches">
+                            <option value="ham">Ham and Swiss</option>
+                            <option value="blt">BLT</option>
+                            <option value="turkey">Turkey</option>
+                            <option value="eggsalad">Egg Salad</option>
+                            </select>
+                            <p>Source <a class="navlink" href="https://www.w3schools.com/html/html_form_elements.asp">w3cschools.com</a></p>
+                        </section>
+
+
+                                 
+                             </main>
+             
+                             <footer>
+                                 <h2 class="footer">Laura Dixon | Comp 1850</h2>
+                                 <a href="https://www.instagram.com/l00nylunalovegood/"><img class="smedia" src="images/insta.jpg" alt="instagram logo"></a>
+                                 <a href="https://www.facebook.com/LDpropane/"><img class="smedia" src="images/facebook.jpg" alt="facebook logo"></a>
+                                 <a href="https://www.instagram.com/p/CKVGXC3hYsw/"><img class="smedia" src="images/kiefertie.jpg" alt="Kiefer the dog wearing a tie"></a>
+                                 <a href="https://www.instagram.com/p/CQUMNrUNHO-/"><img class="smedia" src="images/lunasmiley.jpg" alt="Luna the dog smiling"></a>
+                             </footer>
+                         
+                     </div>
+             
+             
+                 </body>
+             </html>
+
